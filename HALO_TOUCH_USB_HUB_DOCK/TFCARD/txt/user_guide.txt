@@ -1,0 +1,171 @@
+HALO TOUCH USB Hub Dock with Clock V2 - Quick User Guide
+
+Overview
+
+HALO TOUCH is a desktop USB hub and dock with a round touch display, a rotary knob, a TF card reader, USB ports, voltage/current monitoring, a Pomodoro clock, AIDA64 PC status display, a music box, image/MJPEG playback, and an audio spectrum display.
+
+Safety
+
+- Do not use the device in wet or humid environments.
+- Check cables and connectors before connecting power.
+- Do not press hard on the knob or display.
+- Do not connect a USB-C to USB-C charger cable directly to the USB-PC port. Some chargers may output a high voltage and damage the device.
+- If using USB-C PD power, connect the charger only to the PWR-PD port.
+
+Power Modes
+
+PC mode:
+- Power comes from the computer USB port.
+- Connect the supplied USB cable between the computer and the USB-PC port.
+- Set the power switch to PC.
+- This mode is recommended when the computer can provide enough power.
+
+PD mode:
+- Power comes from an external USB-C PD charger.
+- Connect the computer to USB-PC for data.
+- Connect a USB-C PD charger to PWR-PD for power.
+- Set the power switch to PD.
+- Disconnect the USB-PC cable before changing the power switch to avoid momentary cross-connection.
+
+TF Card Contents
+
+Keep the required files on the TF card. The device needs these files to boot and run correctly.
+
+- fonts: extra fonts for the text reader and music player
+- mjpeg: 360 x 360 MJPEG animations, recommended 25 fps
+- music: MP3 files for the music box
+- night7: required runtime assets, boot animation, alarm audio, and other system files
+- pic: 360 x 360 JPG images
+- aida64: background animations for the AIDA64 PC status display
+- txt: UTF-8 text files for the text reader
+- weather: weather animations
+- clockbg: clock background assets
+
+Wi-Fi Setup
+
+The device supports 2.4 GHz Wi-Fi only. It does not support 5 GHz Wi-Fi.
+
+AP setup:
+1. Power on the device. It creates a Wi-Fi access point such as My-Ap.
+2. Connect your phone or computer to that access point. The default password is 12345678.
+3. If the setup page does not open automatically, open http://192.168.4.1 in a browser.
+4. Select your Wi-Fi network and enter the password.
+5. After the device saves the network settings, reboot the device if it does not reboot automatically.
+6. The Pomodoro clock page should show the correct time after a successful network connection.
+
+File setup:
+1. Remove the TF card from the device and insert it into a card reader.
+2. Create a file named wifi.txt in the TF card root directory.
+3. Put the Wi-Fi SSID on the first line.
+4. Put the Wi-Fi password on the second line.
+5. Save the file, eject the TF card, and insert it back into the device.
+6. Power on the device.
+7. Open Settings -> Connection and choose file-based Wi-Fi setup.
+
+USB Hub
+
+The device includes:
+- 1 USB 2.0 Type-C upstream port for the computer
+- 1 USB 2.0 Type-C PD power port
+- 2 USB 2.0 Type-A downstream ports
+- 1 USB 2.0 Type-C downstream port shared with the firmware flashing port
+- 1 TF card reader
+- 1 100 Mbps Ethernet port
+
+Connect USB-PC to the computer with a USB data cable. The computer should detect the TF card reader and Ethernet adapter automatically.
+
+Shared USB3 / Flash Port
+
+The USB3 port and firmware flashing port share the same connector.
+
+- Set the switch to USB3 ON for normal USB use.
+- Set the switch to FLASH for firmware flashing. The computer should detect a serial COM device.
+- For daily use, leave the switch on USB3 ON.
+
+Main UI
+
+- Swipe up from the bottom of the screen to open the main menu on most pages.
+- On the Settings page, tap the circular icon at the top to open the menu.
+- Tap a menu item to enter it.
+- Tap an empty area to close the menu.
+- Swipe left or right inside supported apps to switch items.
+- In most apps, the knob controls computer volume or Surface Dial behavior, depending on firmware version and app settings.
+
+Voltage And Current Monitor
+
+- Shows voltage, current, and power for USB1 and USB2.
+- Long-press the upper screen area to toggle USB1 power.
+- Long-press the lower screen area to toggle USB2 power.
+- Swipe left to adjust current protection thresholds.
+
+Pomodoro Clock
+
+- Rotate the knob to set the timer.
+- Use the 1m mode for one minute per knob turn.
+- Use the 1h mode for one hour per knob turn.
+- Tap Start to begin.
+- Tap Back to cancel.
+- When the timer ends, the device plays night7/alarm.mp3. You may replace this file with your own MP3.
+- Timer operation does not require Wi-Fi, but accurate clock synchronization does.
+
+AIDA64 PC Status Display
+
+PC setup:
+1. Install and run AIDA64 on the PC.
+2. Open File -> Preferences -> LCD.
+3. Select Remote Sensor.
+4. Use port 80 and a 1280 x 800 resolution.
+5. Enable RemoteSensor LCD support.
+6. Import my_aida64_setting.rslcd.
+7. Adjust sensor items for your own CPU, GPU, motherboard, disks, and network adapters.
+8. Do not change the Show Label text.
+9. Set Show unit to ^ so the device can detect the fields correctly.
+10. Allow AIDA64 through the firewall, or allow the TCP port you configured.
+
+Device setup:
+1. Complete Wi-Fi setup first.
+2. Make sure the device and PC are on the same local network.
+3. Open Settings -> APP -> AIDA64 display -> Host IP address.
+4. Enter the PC LAN IP address, for example 192.168.0.100.
+5. If AIDA64 uses a custom port, append it with a colon, for example 192.168.0.100:9223.
+
+Cyber Music Box
+
+- Put MP3 files in the music directory.
+- Swipe left or right to switch songs.
+- Turn the knob clockwise to wind the music box.
+- Release the knob to play for the wound duration.
+- During playback, the knob controls device volume.
+
+MJPEG And Photo Viewer
+
+- Put MJPEG animations in the mjpeg directory.
+- Put JPG images in the pic directory.
+- Recommended image size is 360 x 360.
+- Recommended MJPEG format is 360 x 360 at 25 fps.
+- Swipe left or right to switch items.
+
+Audio Spectrum
+
+- The microphone captures ambient sound and displays a spectrum animation.
+- Swipe left or right to switch spectrum themes.
+
+Surface Dial
+
+Firmware 1.3.0 and later can use the knob as a Surface Dial style controller on Windows 10 or later.
+
+Basic use:
+1. Activate the target app window on the PC.
+2. Long-press the device screen for about 0.8 seconds.
+3. The Windows dial control menu appears in the active window.
+4. Rotate the knob to choose a function.
+5. Tap the device screen to confirm.
+
+Troubleshooting
+
+- Computer does not detect USB: check the cable and the USB-PC port.
+- TF card reader fails: reinsert or replace the TF card.
+- Screen behaves incorrectly: restart the device.
+- PD power is not active: check the PD charger, cable, and voltage monitor.
+- Wi-Fi setup fails: use file setup and confirm the SSID and password.
+- Time is incorrect: complete Wi-Fi setup and set the correct time offset in Settings -> Language.

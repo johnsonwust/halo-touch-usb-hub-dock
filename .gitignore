@@ -1,0 +1,13 @@
+# Windows metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS metadata
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+~$*

@@ -1,0 +1,16 @@
+# Keep firmware, media, archives, and CAD assets byte-for-byte.
+*.bin binary
+*.zip binary
+*.step binary
+*.mjpeg binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.mp3 binary
+*.flac binary
+*.rslcd binary
+
+# Normalize project documentation and guides as text.
+*.md text eol=lf
+*.txt text eol=lf
+*.gitignore text eol=lf
