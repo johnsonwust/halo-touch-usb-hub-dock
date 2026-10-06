@@ -1,0 +1,82 @@
+TAIJI Stress Relief Knob - Quick User Guide
+
+Overview
+
+This TF card contains the runtime files, media, fonts, and example content used by the firmware. Keep the required directories in place so the device can boot and run correctly.
+
+Basic Controls
+
+- Swipe up from the bottom of the screen to open the main menu on most pages.
+- Tap a menu item to enter it.
+- Tap an empty area to close the menu.
+- Swipe left or right inside supported apps to switch items.
+- Rotate the knob for volume, item selection, timer adjustment, or app-specific actions.
+
+Wi-Fi Setup
+
+The device supports 2.4 GHz Wi-Fi only.
+
+1. Power on the device. It creates a Wi-Fi access point such as My-Ap.
+2. Connect your phone or computer to the access point. The default password is 12345678.
+3. If the setup page does not open automatically, open http://192.168.4.1 in a browser.
+4. Select your Wi-Fi network and enter the password.
+5. Reboot the device if it does not reboot automatically.
+
+File-based Wi-Fi setup:
+1. Create wifi.txt in the TF card root directory.
+2. Put the Wi-Fi SSID on the first line.
+3. Put the Wi-Fi password on the second line.
+4. Insert the TF card back into the device.
+5. Open Settings -> Connection and choose file-based Wi-Fi setup.
+
+TF Card Contents
+
+- fonts: extra fonts
+- mjpeg: MJPEG animations
+- music: MP3 music files
+- night7: required runtime assets
+- pic: JPG images
+- aida64: AIDA64 background animations
+- txt: UTF-8 text files for the text reader
+- weather: weather animations
+- clockbg: clock background assets
+
+AIDA64 PC Status Display
+
+1. Install and run AIDA64 on the PC.
+2. Open File -> Preferences -> LCD.
+3. Select Remote Sensor.
+4. Enable RemoteSensor LCD support.
+5. Import my_aida64_setting.rslcd.
+6. Adjust sensor items for your own PC hardware.
+7. Do not change the Show Label text.
+8. Set Show unit to ^.
+9. Allow AIDA64 through the firewall.
+10. On the device, enter the PC LAN IP address in the AIDA64 host setting.
+
+Media Playback
+
+- Put MJPEG files in the mjpeg directory.
+- Put JPG files in the pic directory.
+- Put MP3 files in the music directory.
+- Use left and right swipes to switch items.
+
+Text Reader
+
+- Put UTF-8 .txt files in the txt directory.
+- Swipe left or right to change pages.
+- The device saves reading progress automatically when supported by the firmware.
+
+Pomodoro Clock
+
+- Rotate the knob to set the timer.
+- Tap Start to begin.
+- Tap Back to cancel.
+- The alarm file is night7/alarm.mp3 and can be replaced with another MP3.
+
+Troubleshooting
+
+- USB is not detected: check the cable and port.
+- TF card files are missing: restore the TF card package.
+- Wi-Fi setup fails: check that the network is 2.4 GHz and verify the SSID and password.
+- Time is incorrect: connect Wi-Fi and set the correct time offset.
