@@ -1,0 +1,35 @@
+Fuxuan Necklace - Quick User Guide
+
+Firmware Flashing
+
+1. Flash the single-file firmware to address 0x0.
+2. Connect power. The device powers on automatically. The other end of the cable should be connected to the computer.
+3. Long-press the button to open the circular menu.
+4. Select the gear icon to enter Settings.
+5. Short-press to choose USB data transfer mode, then long-press to confirm.
+6. The device restarts automatically. The computer should detect it as a USB storage drive.
+7. Copy all files from this package to the USB drive root directory.
+8. Disconnect and reconnect power. The device is ready to use.
+
+Activation Notes
+
+The default firmware is not activated.
+
+Differences after activation:
+
+1. The astrology clock background becomes animated. Without activation, it is static.
+2. RGB lighting follows the current mode theme. Without activation, it stays constantly on.
+3. Wi-Fi setup is available only after activation.
+
+Activation Method
+
+1. Open the circular menu and enter the information page using the i icon.
+2. Find the machine code or serial number shown on that page.
+3. Send the machine code to the seller or developer.
+4. Enter the activation code on the device.
+5. The device activates and restarts automatically.
+
+Other operation methods are the same as the God Eye PC version.
+
+The activation code may be supplied with the finished enclosure. If purchased separately, keep the code safe. Activation is bound to the device machine code.
+

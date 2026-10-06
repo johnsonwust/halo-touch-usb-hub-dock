@@ -1,0 +1,5 @@
+Firmware 2.4 Update Strongly Recommended
+
+1. Firmware 2.4 uses a new JPEG decoding library. It improves MJPEG playback frame rate by about 60% to 90% for God Eye, dynamic clock backgrounds, video playback, and photo albums.
+2. Some small bugs are fixed.
+3. The new decoder requires MJPEG and JPG files to match the device screen resolution, such as 240 x 240. Files with the wrong size may cause playback errors.

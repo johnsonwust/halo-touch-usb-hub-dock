@@ -1,0 +1,3 @@
+Initial Flashing Note
+
+Use the dedicated flashing tool from the Baidu Netdisk package and select the N8R2 initial flashing option.

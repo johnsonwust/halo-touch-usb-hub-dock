@@ -14,6 +14,7 @@ Important paths:
 
 ## Other Packages
 
+- `OLD_DEVICES`: God Eye, Taiji Pi, iCRT secondary display, Fuxuan Necklace, 86 Box, and other older-device firmware/resources.
 - `GUM_DAC_USB_Dongle`: GUM DAC USB dongle resources.
 - `TAIJI_STRESS_RELIEF_KNOB`: Taiji stress relief knob firmware and TF card resources.
 - `TAIJI_PI_LITE`: Taiji Pi Lite firmware and TF card resources.
@@ -44,4 +45,5 @@ Common directories:
 ## References
 
 - Product page: https://www.tindie.com/products/johnson/halo-touch-usb-hub-dock-with-clock-v2/
-- Original Chinese user guide: https://pressf5.run/?p=227
+- Bluetooth knob / Taiji View Pi Chinese guide: https://pressf5.run/?p=227
+- Old devices Chinese guide: https://pressf5.run/?p=119

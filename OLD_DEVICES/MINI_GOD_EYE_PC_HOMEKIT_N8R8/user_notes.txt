@@ -1,0 +1,6 @@
+Mini God Eye PC/HomeKit Notes
+
+- The HomeKit firmware can connect to Apple Home. It supports Siri power on/off control, computer power-state display, and power on/off animations.
+- The button on the HomeKit firmware is dedicated to HomeKit. It has no normal daily function. Long-press it for 3 seconds to enter the HomeKit configuration page.
+- The Wi-Fi firmware can play computer power on/off animations. Its button behavior is the same as God Eye: short-press to switch sub-items and long-press to switch functions.
+- On the Settings page, long-press for 5 seconds to clear saved Wi-Fi information.

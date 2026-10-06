@@ -6,6 +6,7 @@
 *.jpg binary
 *.jpeg binary
 *.png binary
+*.xlsx binary
 *.mp3 binary
 *.flac binary
 *.rslcd binary
