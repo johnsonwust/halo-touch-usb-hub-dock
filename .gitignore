@@ -12,3 +12,5 @@ Desktop.ini
 *.swp
 ~$*
 *.baiduyun.p.downloading
+_zip_repack_tmp/
+PRODUCTION_FLASHING/original_production_firmware_20250919_source.zip

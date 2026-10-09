@@ -11,6 +11,7 @@ Important paths:
 - `HALO_TOUCH_USB_HUB_DOCK/firmware`: bootloader, partition table, and firmware binaries.
 - `HALO_TOUCH_USB_HUB_DOCK/TFCARD`: files to copy to the device TF card.
 - `HALO_TOUCH_USB_HUB_DOCK/TFCARD/txt/user_guide.txt`: English quick user guide for the device text reader.
+- `PRODUCTION_FLASHING`: current factory production flashing tool and firmware package.
 
 ## Other Packages
 

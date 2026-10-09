@@ -1,6 +1,7 @@
 # Keep firmware, media, archives, and CAD assets byte-for-byte.
 *.bin binary
 *.zip binary
+*.exe binary
 *.step binary
 *.mjpeg binary
 *.jpg binary
